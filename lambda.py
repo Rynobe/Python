@@ -37,7 +37,7 @@ def square(num):
 
 print(square(3))
 
-square = lambda num: num ** 2
+square = lambda num:num**2
 print(square(5))
 
 print(list(map(lambda num:num**2,my_nums)))
@@ -45,3 +45,6 @@ print(list(map(lambda num:num**2,my_nums)))
 print(list(filter(lambda num:num%2 == 0,my_nums)))
 
 print(list(map(lambda x:x[::-1],names)))
+
+#################################
+
