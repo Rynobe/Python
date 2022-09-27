@@ -18,7 +18,11 @@ def give_position():
     return int(position)
 
 def continues():
+    
     allitas = input("Would you like to keep playing? Y or N: ")
+    if allitas not in ['Y','N']:
+        print("Sorry, I don't understand, please choose Y or N!")
+        continues()
     if allitas == 'Y':
         display(game_list)
         replace(game_list,give_position())
