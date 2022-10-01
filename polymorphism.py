@@ -92,7 +92,7 @@ hal.speaks("Gluty")
 print()
 
 # Polimorph 3.0
-
+print("Polimorph 3.0")
 class Pets():
     def __init__(self,name):
         self.name = name
